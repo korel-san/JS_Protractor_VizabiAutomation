@@ -1,0 +1,1 @@
+java -jar D:\abid.ali\Projects\VizabiAutomation\2ndPhase\JS_Protractor_VizabiAutomation\selenium-server-standalone-2.47.1.jar -Dwebdriver.chrome.driver=D:\abid.ali\Projects\VizabiAutomation\2ndPhase\JS_Protractor_VizabiAutomation\chromedriver.exe

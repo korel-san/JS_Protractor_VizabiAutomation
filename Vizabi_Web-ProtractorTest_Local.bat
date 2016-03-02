@@ -1,0 +1,1 @@
+protractor D:\abid.ali\Projects\VizabiAutomation\2ndPhase\JS_Protractor_VizabiAutomation\Vizabi_Web_Conf_Local.js
