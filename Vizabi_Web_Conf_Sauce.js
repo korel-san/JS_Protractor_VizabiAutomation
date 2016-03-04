@@ -5,16 +5,16 @@ exports.config = {
 	sauceUser: '',
 	sauceKey: '',
 
-	specs: ['Vizabi_Web_Core_Local.js'],
+	specs: ['Vizabi_Web_Core_Interaction.js'],
 
 
   capabilities: {
 	 'browserName': 'chrome',
 //	 'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
-	 'screenResolution': '1024x768',
+	 'screenResolution': '1280x800',
 	 'name': 'Chrome',
-	 'tags': 'GrowFactor-Web-Functional',
-	 'build': '05'
+	 'tags': 'Vizabi-DesktopWeb',
+	 'build': 'v0.12.8'
   },
   onPrepare: function() {
 	var AllureReporter = require('jasmine-allure-reporter/index.js');  
