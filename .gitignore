@@ -1,0 +1,20 @@
+#webstorm
+.idea
+#node.js
+node_modules
+npm-debug.log
+
+# builded files
+dist
+allure-results
+
+#coverage
+coverage
+
+# ts generated
+app/**/*.js
+app/**/*.js.map
+app/**/*.d.ts
+
+#ts typings
+typings

@@ -1,9 +1,0 @@
-For testing inside test/system folder of Allure-jasmine-reporter:
-
-1) To start Selenium erver: java -jar selenium-server-standalone-2.47.1.jar -Dwebdriver.chrome.driver=chromedriver.exe
-
-2) protractor conf.js
-
-3) To convert XML reports into HTML: mvn site -Dallure.results_pattern=allure-results
-
-4) To access HTML reports via localhost:1234 use: mvn jetty:run -Djetty.port=1234
